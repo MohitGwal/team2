@@ -1,0 +1,16 @@
+/* navbar  */
+nav li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+/* home  */
+.main{
+    
+    background:url(./photos/home.jpg);
+    background-size: cover;
+    height: 50vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: 50% 50%;
+}
