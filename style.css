@@ -13,7 +13,7 @@ nav li a:hover {
 /* home  */
 .main{
     
-    background-image:url('/photos/school_chlidren.jpg');
+    background:url('/photos/school_chlidren.jpg');
     background-size: cover;
     height: 98vh;
     background-repeat: no-repeat;
@@ -100,9 +100,7 @@ nav li a:hover {
     text-shadow: 2px 2px 4px #ffffffcf;
 }
 
-#home_card3{
-    /* background: linear-gradient(to right, #ff6699 44%, #cc33ff 110%); */
-}
+
 
 #home_card4{
 background-image: url('photos/smiling\ children.jpg');
