@@ -9,17 +9,18 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <style>
-        
+
     </style>
-    <title>Document</title>
+    <title>NGO-Homepage</title>
 
 </head>
 
 <body>
 
     <!-- navbar  -->
-    <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
+    <nav id="home_navbar" class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container-xxl">
             <a href="#intro" class="navbar-brand">
                 <span class="fw-bold text-dark ms-3">
@@ -34,47 +35,362 @@
             </button>
 
             <!-- navbar links  -->
-            <div class="collapse navbar-collapse justify-content-end align-center py-2 " id="main-nav">
+            <div class="collapse navbar-collapse justify-content-end align-center py-2 px-0 " id="main-nav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a href="#topics" class="nav-link text-dark h4 mx-3">HOME</a>
+                        <a href="#home" class="nav-link text-dark h4 mx-3">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#topics" class="nav-link text-dark h4 mx-3">ABOUT</a>
+                        <a href="About_us.html" class="nav-link text-dark h4 mx-3">ABOUT</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#topics" class="nav-link text-dark h4 mx-3">PROGRAMS</a>
+                        <a href="program_page.html" class="nav-link text-dark h4 mx-3">PROGRAMS</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#topics" class="nav-link text-dark h4 mx-3">MEDIA</a>
+                        <a href="#Media" class="nav-link text-dark h4 mx-3">MEDIA</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#topics" class="nav-link text-dark h4 mx-3">CONTACT </a>
+                        <a href="contact.html" class="nav-link text-dark h4 mx-3">CONTACT </a>
+                    </li>
+                    <li class="nav-item ms-2 d-none d-lg-inline">
+                        <a href="" class="btn btn-danger btn-lg">DONATE</a>
                     </li>
                 </ul>
             </div>
         </div>
-        <li class="nav-item ms-2 d-none d-md-inline align-center justify-content-end">
-            <a href="#donate" class="bg-danger h4 py-4 px-3 justify-content-end ">Donate</a>
-        </li>
+        <!-- <li class="nav-item ms-2 d-none d-md-inline align-center justify-content-end">
+            <a href="#donate" class=" h4  py-4 px-3 justify-content-end ">Donate</a>
+        </li> -->
     </nav>
+    <!-- navbar ends  -->
+    <!-- Home  -->
+    <section class="Home" id="home">
 
-<section class="main ">
-    <div class="container  ">
-        <div class="row-5 ">
-            <div class="col ">
-              <a href="#" class="btn btn-danger btn-lg">Programs</a>
+     <div class="main">
+
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3 d-none d-lg-inline bg-dark text-light text-center py-5 lift">
+                    <h2><a style="text-decoration:none;" class="text-light" href="#3cards">Purpose</a></h2>
+                </div>
+                <div class="col-3 d-none d-sm-inline bg-info text-light text-center py-5 lift">
+                    <h2><a style="text-decoration:none;" class="text-light" href="#footer">Sign Up</a> </h2>
+                </div>
+                <div  class="col-3 d-none d-sm-inline bg-success text-light text-center py-5 lift">
+                    <h2><a style="text-decoration:none;" class="text-light" href="#footer">Donations</a></h2>
+                </div>
+                <div class="col-3 d-none d-lg-inline bg-dark text-light text-center py-5 lift">
+                    <h2><a style="text-decoration:none;" class="text-light" href="#grid2">Involvement</a></h2>
+                </div>
+            </div>
+            <div class="row">
+               <div class="col-3 d-none d-lg-inline bg-secondary text-light lift">
+                   <h2>Our Core Purpose</h2>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, corrupti?</p>
+               </div>
+               <div class="col-6">
+              <div class="row  bg-dark text-light py-5 px-1 lift ">
+                <h2>OUR MISSION</h2>
+                <p>our mission is to help the underprivileged
+                    children in
+                    their education and basic needs to bring equality in the society .We aim to have free
+                    schools
+                    for those children across the globe to help in sustainable development of the world.</p>
+              </div>
+              <div class="row">
+                  <div class="col-6 d-none d-sm-inline bg-info text-light  py-3 px-2 lift">
+                      <h2><a style="text-decoration:none;" class="text-light" href="contact.html">Contact Us</a></h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, modi eius tempora eos cupiditate natus.</p>
+                  </div>
+                  <div class="col-6 d-none d-sm-inline bg-success text-light py-3 px-2  lift">
+                    <h2><a style="text-decoration:none;" class="text-light" href="#footer">Make Donation</a></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, modi eius tempora eos cupiditate natus.</p>
+                  </div>
             </div>
         </div>
-    </div>
-</section>
+                <div class="col-3 d-none d-lg-inline bg-secondary text-light lift">
+                    <h2>Get Involved</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, corrupti?</p>
+                </div>
+            </div>
+        </div>
+    
+
+     </div>
 
 
+
+
+
+
+             
+        
+        <!-- three cards section  -->
+        <div class="container mt-5" id="3cards">
+            <h1 class="display-5 text-center fw-light">THE IMPACT</h1>
+            <h2 class="h4 text-center fw-bold text-danger">In our mission to give free education to the poor</h2>
+            <div class="row my-3 align-items-center justify-content-around">
+
+                <div class="col-8 col-lg-4 col-xl-3 my-2">
+                    <div class="card " >
+                        <div class="card-body text-center py-3 rounded bg-dark " id="card_shadow2">
+                            <h4 class="card-title h2 text-primary">Community</h4>
+                            <p class="lead text-primary car-subtitle">UNITED WITH</p>
+                            <p style="text-shadow: 0 0 15px rgba(255, 255, 255, 0.74), 0 0 30px #1884ffc8, 0 0 40px #189bffb7; "
+                                class="display-5 my-3 text-light fw-bold">2.2K</p>
+                            <p class="lead text-primary car-subtitle">ACROSS OUR</p>
+                            <p class="lead text-primary car-subtitle">CHILD HELP</p>
+                            <p class="lead text-primary car-subtitle">COMMUNITY</p>
+                            <a href="#about" class="btn btn-outline-primary mt-3">Read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-8 col-lg-4 col-xl-3 my-2">
+                    <div class="card border-0" >
+                        <div class="card-body text-center rounded py-3  bg-dark" id="card_shadow1">
+                            <h4 class="card-title h2 text-danger">Action</h4>
+                            <p class="lead text-danger car-subtitle">ESTABLISHED</p>
+                            <p style="text-shadow: 0 0 15px rgba(255, 255, 255, 0.703), 0 0 30px #ff3b18b7, 0 0 40px #ff3b18b2; "
+                                class="display-5 my-3 text-light fw-bold">500</p>
+                            <p class="lead text-danger car-subtitle">FREE SCOOLS</p>
+                            <p class="lead text-danger car-subtitle">ACROSS THE</p>
+                            <p class="lead text-danger car-subtitle">WORLD</p>
+                            <a href="#about" class="btn btn-outline-danger  mt-3">Read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-8 col-lg-4 col-xl-3 my-2">
+                    <div class="card border-0" >
+                        <div class="card-body text-center py-3 rounded  bg-dark" id="card_shadow3">
+                            <h4 class="card-title h2  text-success">Care</h4>
+                            <p class="lead text-success car-subtitle">MORE THAN</p>
+                            <p style="text-shadow: 0 0 15px rgba(255, 255, 255, 0.71), 0 0 30px #4aff18ae, 0 0 40px #4aff18a8; "
+                                class="display-5 my-3 text-light fw-bold">100K</p>
+                            <p class="lead text-success car-subtitle">CHILDREN</p>
+                            <p class="lead text-success car-subtitle">RECIEVED BASIC</p>
+                            <p class="lead text-success car-subtitle">EDUCATION</p>
+                            <a href="#about" class="btn btn-outline-success mt-3">Read more</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="container" id="grid2">
+            <div class="row my-2">
+                <div class="col-4 d-none d-lg-inline">
+                    <img src="photos/bus.jpg" alt="" width="100%">
+                </div>
+                <div class="col-md-8 bg-primary">
+                    <h2 class="display-5 text-center">Get Involved Today</h2>
+                    <p class="mx-3 mt-4">Lorem Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia
+                        aliquid rem quibusdam architecto inventore necessitatibus quasi doloremque odit dignissimos
+                        labore.ipsum dolor sit amet consectetur adipisicing elit. Blanditiis vitae ipsam at ipsum!
+                        Quibusdam alias fugiat vitae, quia dignissimos itaque.</p>
+                    <a href="#" class="btn btn-outlint-light text-dark mx-5 border-secondary home_button">Learn More</a>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-4 d-none d-lg-inline my-2">
+                    <img src="photos/learning.jpg" alt="" width="105%">
+                </div>
+                <div class="col-4 d-none d-lg-inline my-2">
+                    <img src="photos/oxford_school.jpg" alt="" width="90%">
+                </div>
+                <div class="col-md-4  bg-dark">
+                    <h2 class="display-5  text-light mx-5">Our Core Purpose</h2>
+                    <p class="text-light mx-5 my-4">Educating young children to improve thier lives and the lives of
+                        others</p>
+                    <a href="#" class="btn btn-outlint-light text-light mx-5 border home_button">Learn More</a>
+                </div>
+            </div>
+        </div>
+<!-- 
+        <div class="container-fluid m-0 p-0" id="windows">
+            <div class="row">
+                <div class="col-md-5 border" id="home_card1">
+                </div>
+                <div class="col-md-7 border" id="home_card2">
+                    <h2 class="display-5 text-center">Get Involved Today</h2>
+                    <p class="mx-3 mt-4">Lorem Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia
+                        aliquid rem quibusdam architecto inventore necessitatibus quasi doloremque odit dignissimos
+                        labore.ipsum dolor sit amet consectetur adipisicing elit. Blanditiis vitae ipsam at ipsum!
+                        Quibusdam alias fugiat vitae, quia dignissimos itaque.</p>
+                    <a href="#" class="btn btn-outlint-light text-dark mx-5 border-secondary home_button">Learn More</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 border " id="home_card3">
+                    <h2 class="display-5  text-light mx-5">Our Core Purpose</h2>
+                    <p class="text-light mx-5 my-4">Educating young children to improve thier lives and the lives of
+                        others</p>
+                    <a href="#" class="btn btn-outlint-light text-light mx-5 border home_button">Learn More</a>
+                </div>
+                <div class="col-md-4 border " id="home_card4">center</div>
+                <div class="col-md-4 border" id="home_card5">
+                    <h2 class="display-5 text-light mx-5">Our Core Purpose</h2>
+                    <p class="text-light mx-5 my-4">Educating young children to improve thier lives and the lives of
+                        others</p>
+                    <a href="#" class="btn btn-outlint-light text-light mx-5 border home_button">Learn More</a>
+                </div>
+            </div>
+        </div>-->
+
+
+    </section> 
+
+
+
+
+    <!-- footer  -->
+    <section id="footer" class="footer  text-light">
+        <div class="container-fluid p-0 m-0">
+            <div class="row">
+                <h2 class="h2 text-center text-light">Sign Up</h2>
+            </div>
+            <div class="row">
+
+                <div class="col-sm-3 ">
+                    <label for="name" class="form-label">First Name:</label>
+                    <div class="mb-4 input-group">
+                        <span class="input-group-text"><i class="bi bi-person-fill"></i>
+                        </span>
+                        <input type="text" class="form-control" id="name" placeholder="e.g. Isaac">
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <label for="name" class="form-label">Last Name:</label>
+                    <div class="mb-4 input-group">
+                        <span class="input-group-text"><i class="bi bi-person-fill"></i>
+                        </span>
+                        <input type="text" class="form-control" id="name" placeholder="e.g. Isaac">
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <div class="mb-4 input-group">
+                        <span class="input-group-text"><i class="bi bi-envelope"></i>
+                        </span>
+                        <input type="email" class="form-control" id="email" placeholder="e.g. ngo@gmail.com">
+                    </div>
+                </div>
+
+                <div class="col-sm-3 ">
+                    <label for="email" class="form-label">Email address</label>
+                    <div class="mb-4 input-group">
+                        <span class="input-group-text"><i class="bi bi-telephone"></i>
+                        </span>
+                        <input type="number" class="form-control" id="number" placeholder="7082645813">
+                    </div>
+                </div>
+
+
+                <div class="mb-4 text-center">
+                    <button type="submit" class="btn btn-warning ">Sign Up</button>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12" id="footer_middle">
+                    <small class="h5 lead text-light">Stay Connected</small>
+                    <a id="icon_animation" class="mx-1 " href="https://www.facebook.com/"><img
+                            src="photos/facebook-5-64.png"  height="37px" width="37px"
+                             alt=""></a>
+                    <a id="icon_animation" class="mx-1" href="https://www.instagram.com/"><img
+                            src="photos/instagram-5-64.png"  height="37px" width="37px"
+                             alt=""></a>
+                    <a id="icon_animation" class="mx-2" href="https://www.youtube.com/"><img
+                            src="photos/youtube-5-64.png" height="37px" width="37px"
+                            alt=""></a>
+                    <a id="icon_animation" class="mx-2" href="https://www.linkedin.com/"><img
+                            src="photos/linkedin-5-64.png" height="37px" width="37px"
+                             alt=""></a>
+                </div>
+
+
+            </div>
+            <div class="row justify-content-start ">
+
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">NGO name</h5>
+                    <img src="photos/kidicon.ico" class="d-none d-sm-inline" alt="">
+                </div>
+
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 footer_content">
+                    <h5 class="text-uppercase mb-4 fw-bold text-warning">recent activities</h5>
+                    <p>
+                        <a href="#Media" style="text-decoration:none;" class="text-white">Programs</a>
+                    </p>
+                    <p>
+                        <a href="#Media" style="text-decoration:none;" class="text-white">Media</a>
+                    </p>
+                    <p>
+                        <a href="#Media" style="text-decoration:none;" class="text-white">News</a>
+                    </p>
+                    <p>
+                        <a href="#Media" style="text-decoration:none;" class="text-white">Camps</a>
+                    </p>
+                </div>
+
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3 footer_contents">
+                    <h5 class="text-uppercase mb-4 fw-bold text-warning"> links</h5>
+                    <p>
+                        <a href="#About" style="text-decoration:none;" class="text-white">About</a>
+                    </p>
+                    <p>
+                        <a href="#Programs" style="text-decoration:none;" class="text-white">Programs</a>
+                    </p>
+                    <p>
+                        <a href="#Media" style="text-decoration:none;" class="text-white">Media</a>
+                    </p>
+                    <p>
+                        <a href="#Contact" style="text-decoration:none; transform:(1.1);" class="text-white">contact</a>
+                    </p>
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 fw-bold text-warning">Contact</h5>
+                    <p>
+                        <i class="bi bi-house me-1"></i>NEW York, NY 2333, US
+                    </p>
+                    <p>
+                        <i class="bi bi-envelope me-1"></i>theprovider@gmail.com
+                    </p>
+                    <p>
+                        <i class="bi bi-telephone me-1"></i></i>+91 1234567890
+                    </p>
+                    <p>
+                        <i class="bi bi-printer me-1"></i>+91 1234325235
+                    </p>
+
+
+                </div>
+
+                <div class="row">
+                    <div class="col border-top text-center mt-5 py-1">
+                        © 2022 NGO name is a non-profit organization. Website made by Team-2
+                    </div>
+                </div>
+
+            </div>
+
+    </section>
 
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous">
+</script>
 
 </html>
