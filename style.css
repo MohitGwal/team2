@@ -13,7 +13,7 @@ nav li a:hover {
 /* home  */
 .main{
     
-    background:url('/photos/school_chlidren.jpg');
+    background:url('school_chlidren.jpg');
     background-size: cover;
     height: 98vh;
     background-repeat: no-repeat;
